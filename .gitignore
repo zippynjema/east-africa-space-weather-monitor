@@ -1,0 +1,30 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+
+# --- Files the dashboard generates while running ---
+flare_dashboard/
+dashboard.tmp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Editors and notebooks ---
+.spyproject/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db

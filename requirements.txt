@@ -1,0 +1,25 @@
+# Python 3.9 or newer.  Install with:  pip install -r requirements.txt
+
+#Third-Party Packages (Requires pip install)
+
+numpy>=1.24         # (import numpy as np) - Numerical computing and array operations
+pandas>=2.0         # (import pandas as pd) – Data manipulation and analysis
+requests>=2.28      # (import requests) – Making HTTP/API requests
+plotly>=5.15        # interactive charts on the dashboard page
+python-dotenv>=1.0  # optional: lets the script read settings from a .env file
+
+#Python Standard Library (Built-in, no installation needed)
+
+argparse       # Parsing command-line arguments
+collections    # (specifically defaultdict) – Specialized container datatypes
+datetime       # (specifically datetime, timedelta, timezone) – Date and time manipulation
+email          # (specifically email.message.EmailMessage) – Constructing email messages
+json           # Parsing and generating JSON data
+os             # Operating system interfaces and environment variables
+pathlib        # (specifically Path) – Object-oriented filesystem paths
+re             # Regular expressions
+smtplib        # Sending emails via SMTP
+ssl            # TLS/SSL encryption wrapper for network sockets
+sys            # System-specific parameters and functions
+time           # Time access and conversions
+webbrowser     # Opening URLs in a web browser
